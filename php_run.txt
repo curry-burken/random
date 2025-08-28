@@ -1,0 +1,6 @@
+1 place inside /var/www/html/
+2 do "sudo nano /etc/nginx/sites-available/<filename>" and place the contents
+3 do "sudo ln -s /etc/nginx/sites-available/<filename> /etc/nginx/sites-enabled/"
+4 do "sudo nano /etc/hosts" and assign domain
+5 do "sudo nginx -t"
+6 do "sudo systemctl restart nginx" 

@@ -1,0 +1,9 @@
+DB CONNECTION:
+\status
+SHOW VARIABLES WHERE Variable_name = 'port';
+SHOW VARIABLES WHERE Variable_name = 'hostname';
+    
+LOGIN WITH USER NAME, IP AND PASSWORD:
+mysql -u root -p -h 127.0.0.1
+
+

@@ -1,0 +1,12 @@
+sudo apt update
+sudo apt upgrade
+pwd
+sudo nano
+rm <filename.ext>
+rm -r <dir>/
+rmdir <dir>/
+touch sample.txt
+mkdir <dirname>
+history
+sudo reboot
+sudo shutdown
