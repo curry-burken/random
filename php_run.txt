@@ -4,3 +4,7 @@
 4 do "sudo nano /etc/hosts" and assign domain
 5 do "sudo nginx -t"
 6 do "sudo systemctl restart nginx" 
+
+
+to see log, do "sudo tail -f /var/log/nginx/error.log"
+

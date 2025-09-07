@@ -1,12 +1,27 @@
 sudo apt update
 sudo apt upgrade
+
 pwd
-sudo nano
+
+sudo nano <..>
+sudo cat <..>
+
 rm <filename.ext>
 rm -r <dir>/
 rmdir <dir>/
+
 touch sample.txt
 mkdir <dirname>
+
 history
+
 sudo reboot
 sudo shutdown
+
+sudo systemctl status <..>
+sudo systemctl enable <..>
+sudo systemctl disable <..>
+sudo systemctl start <..>
+sudo systemctl stop <..>
+
+sudo dpkg -i <deb file path>
